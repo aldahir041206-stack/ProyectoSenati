@@ -1,0 +1,27 @@
+/*El selector universal*/
+@font-face {
+    font-family: ;
+    src: url(/assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*Luego aplicas TODO a selector universal*/
+*{
+    font-family: "Poppinslocal", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+header{
+    background-color: white;
+    height: 55px;
+    display: flex;
+    padding: 0 16px;
+}
+.img-logo{
+    height: 32px;
+}
